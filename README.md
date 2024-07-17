@@ -1,4 +1,4 @@
-# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# ![WebApp](![](./src/assets/screenshots/desktop_home.png))
 # MultiStepProject
 <table>
 <tr>
@@ -23,7 +23,7 @@ Essa é a parte de seleção de planos. Onde o usuário pode escolher o plano qu
 
 ### Adições ao Plano
 Essa é a parte em que o usuário pode ou não escolher pacotes adicionais ao seu plano.
-![](h./src/assets/screenshots/desktop_addons.png)
+![](./src/assets/screenshots/desktop_addons.png)
 
 ### Sumário
 Nessa última parte, o usuário poderá revisar todas as informações selecionadas e confirmar ou alterar caso desejado.
@@ -31,10 +31,10 @@ Nessa última parte, o usuário poderá revisar todas as informações seleciona
 ## Mobile support
 A aplicação web está totalmente responsiva, se adaptando em telas menores e tendo um layout um pouco diferente e ainda bonito.
 
-![](h./src/assets/screenshots/mobile_home.png)
-![](h./src/assets/screenshots/mobile_plan.png)
-![](h./src/assets/screenshots/mobile_addons.png)
-![](h./src/assets/screenshots/mobile_summary.png)
+![](./src/assets/screenshots/mobile_home.png)
+![](./src/assets/screenshots/mobile_plan.png)
+![](./src/assets/screenshots/mobile_addons.png)
+![](./src/assets/screenshots/mobile_summary.png)
 
 
 ## Built with 
