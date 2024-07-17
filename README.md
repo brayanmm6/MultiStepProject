@@ -1,4 +1,4 @@
-# ![WebApp](![](./src/assets/screenshots/desktop_home.png))
+# ![WebApp]![](./src/assets/screenshots/desktop_home.png)
 # MultiStepProject
 <table>
 <tr>
@@ -37,7 +37,7 @@ A aplicação web está totalmente responsiva, se adaptando em telas menores e t
 ![](./src/assets/screenshots/mobile_summary.png)
 
 
-## Built with 
+## Feito usando: 
 
 - [TypeScript](https://www.typescriptlang.org) - TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor
 - [React](https://react.dev) - The library for web and native user interfaces
