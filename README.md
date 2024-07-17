@@ -1,30 +1,47 @@
-# React + TypeScript + Vite
+# ![WebApp](https://iharsh234.github.io/WebApp/images/demo/demo_landing.JPG)
+# MultiStepProject
+<table>
+<tr>
+<td>
+  Esse projeto é do Frontend Mentor. Onde eu segui o layout, mas fiz o projeto do meu jeito para praticar TypeScript. 
+</td>
+</tr>
+</table>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Site
 
-## Expanding the ESLint configuration
+### Home
+Essa é a Home do projeto, onde o usuário pode colocar algumas de suas informações.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![](./src/assets/screenshots/desktop_home.png)
 
-- Configure the top-level `parserOptions` property like this:
+### Seleção de Planos
+Essa é a parte de seleção de planos. Onde o usuário pode escolher o plano que melhor se encaixa com suas necessidades, e se será mensal ou anual.
+![](./src/assets/screenshots/desktop_plan.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Adições ao Plano
+Essa é a parte em que o usuário pode ou não escolher pacotes adicionais ao seu plano.
+![](h./src/assets/screenshots/desktop_addons.png)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Sumário
+Nessa última parte, o usuário poderá revisar todas as informações selecionadas e confirmar ou alterar caso desejado.
+
+## Mobile support
+A aplicação web está totalmente responsiva, se adaptando em telas menores e tendo um layout um pouco diferente e ainda bonito.
+
+![](h./src/assets/screenshots/mobile_home.png)
+![](h./src/assets/screenshots/mobile_plan.png)
+![](h./src/assets/screenshots/mobile_addons.png)
+![](h./src/assets/screenshots/mobile_summary.png)
+
+
+## Built with 
+
+- [TypeScript](https://www.typescriptlang.org) - TypeScript adds additional syntax to JavaScript to support a tighter integration with your editor. Catch errors early in your editor
+- [React](https://react.dev) - The library for web and native user interfaces
+- [Vite](https://vitejs.dev) - Next Generation Frontend Tooling
+- [Styled-Components](https://styled-components.com) - Styling your way with speed, strong typing, and flexibility.
+- [React-router-dom](https://reactrouter.com/en/main) - React Router DOM is an npm package that enables you to implement dynamic routing in a web app. It allows you to display pages and allow users to navigate them. It is a fully-featured client and server-side routing library for React.
+- [React-redux](https://react-redux.js.org) - Designed to work with React's component model. You define how to extract the values your component needs from Redux, and your component updates automatically as needed.

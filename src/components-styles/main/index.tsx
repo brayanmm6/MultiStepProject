@@ -16,7 +16,8 @@ const StyledMain = styled.section`
     footer{
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
+        gap: 50%
     }
 `
 

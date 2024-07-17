@@ -21,11 +21,15 @@ const StyledPlanOtion = styled.div`
         align-items: flex-start;
         gap: 40px;
         padding: 20px;
-        border: solid 1px hsl(231, 11%, 63%);
+        border: solid 1px transparent;
         border-radius: 10px;
 
         .plan-infos{
             line-height: 25px;
+        }
+
+        .plan-infos p{
+            color: hsl(231, 11%, 63%);
         }
     }
 

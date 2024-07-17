@@ -20,6 +20,10 @@ const StyledInputContainer = styled.div`
         justify-content: space-between;
         line-height: 20px;
     }
+
+    label p {
+        color: hsl(213, 96%, 18%);
+    }
 `
 
 const StyledInputsArea = styled.div`
@@ -60,6 +64,10 @@ const StyledMainSection = styled.section`
     .personal-info p{
         line-height: 40px;
         color: hsl(231, 11%, 63%);
+    }
+
+    .personal-info h2 {
+        color: hsl(213, 96%, 18%);
     }
 
     .total {

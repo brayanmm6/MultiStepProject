@@ -5,9 +5,9 @@ import { useNavigate, useParams } from "react-router-dom";
 
 interface SelectorOptionsProps {
     selectTitle: string,
-    target: string,
+    target?: string,
     step: number,
-    selected: number
+    selected?: number
 }
 
 type Option = {
@@ -23,18 +23,15 @@ const options : Option[] = [
     {step: 4, selectTitle: "SUMMARY", target: "summary"}
 ]
 
-const SelectOption = ({selectTitle, target, step, selected} : SelectorOptionsProps) => {
-    const navigate = useNavigate()
+const SelectOption = ({selectTitle, step} : SelectorOptionsProps) => {
     const { id } = useParams<string>() 
     let idNumber = null
     id === undefined ? idNumber = 1 : idNumber = Number(id)
     
     return(
         <StyledSelectorOption >
-            <input type="radio" name="step-option" id={`step-${step}`} className="inputs" value={step} defaultChecked={idNumber === step || !idNumber && step === 1 ? true : false}/>     
-            <label htmlFor={`step-${step}`} className="step" onClick={() => {
-                step === 1 ? navigate(`/`) : navigate(`/${selectTitle}/${step}`)
-            }}>{step}</label>           
+            <input type="radio" name="step-option" id={`step-${step}`} disabled={true} className="inputs" value={step} defaultChecked={idNumber === step || !idNumber && step === 1 ? true : false}/>     
+            <label htmlFor={`step-${step}`} className="step" >{step}</label>           
             <div className="infos">
                 <p>STEP {step}</p>
                 <h2>{selectTitle}</h2>
@@ -51,7 +48,7 @@ const AsideSelector  = ()  => {
                     {
                         options.map((opt, index) => {
                             return(
-                                <SelectOption selected={0} key={index} step={opt.step} selectTitle={opt.selectTitle} target={opt.target} />
+                                <SelectOption selected={0} key={index} step={opt.step} selectTitle={opt.selectTitle} />
                             )
                         })
                     }
